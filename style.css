@@ -23,6 +23,16 @@ body {
 }
 
 /* HEADER */
+header {
+  padding: 22px 80px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  border-bottom: 1px solid var(--border-soft);
+  background: var(--bg-main);
+  background: #f8fafc;
+}
+
 .logo-wrap {
   background: #1d4ed8;          /* Brand blue */
   padding: 8px 14px;
